@@ -25,5 +25,5 @@ Projeto criado para fins educacionais, com foco em prática de estruturação de
 
 ## Site responsivo
 Acesse também pelo smartphone ou tablet:
-
 ![](midias/qrcode.png)
+
