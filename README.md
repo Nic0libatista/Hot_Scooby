@@ -24,6 +24,9 @@ Nicoli Santos
 Projeto criado para fins educacionais, com foco em prática de estruturação de páginas web, responsividade e experiência do usuário.
 
 ## Site responsivo
-Acesse também pelo smartphone ou tablet:
-![](midias/qrcode.png)
+Acesse também pelo smartphone ou tablet: <br>
+![https://nic0libatista.github.io/Hot_Scooby/HotScooby/] <br>
+<img width="450" height="450" alt="qrcode" src="https://github.com/user-attachments/assets/e946e567-8063-47c1-9650-e757b1b7e958" />
+
+
 
