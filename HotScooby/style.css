@@ -1,0 +1,193 @@
+#preloader {
+  position: fixed;
+  inset: 0;
+  background: #000;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  z-index: 99999;
+}
+
+
+#preloader .logo {
+  width: 150px;
+  border-radius: 20px;
+  margin-bottom: 20px;
+}
+
+
+.loading-text {
+  color: #fff;
+  font-size: 18px;
+  font-weight: 600;
+  animation: blink 31s infinite alternate;
+}
+
+@keyframes blink {
+  from { opacity: 0.4; }
+  to   { opacity: 1; }
+}
+
+
+.fade-out {
+  opacity: 0;
+  transition: opacity .35s ease;
+}
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+     #navbarNavAltMarkup {
+       margin-left: 55%;
+    
+}
+
+.nav-link{
+    margin-bottom: 14px;
+}
+
+h2{
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+}
+
+h5{
+   font-family: "Lato", sans-serif;
+  font-weight: 700;
+  font-style: italic;
+}
+
+.nav-link{
+    font-size: 25px;
+    color: #452318;
+}
+
+.nav-link:hover{
+        transition: transform .3s;
+    color: #000000;
+    font-size: 26px;
+    text-shadow: 0 0 8px rgba(137, 85, 85, 0.8);
+}
+
+  /****** Banner ******/
+main {
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    }
+
+   
+   
+#beneficios{
+    text-align: center;
+    margin-left: 10px;
+    margin-right: 10px;
+
+}
+
+.counter{
+    font-size: 60px;
+    color:#401c10;
+}
+
+section {
+    text-align: center;
+}
+
+
+#cardapio, #localizacao {
+    text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 5px;
+  background-color: #401c10;
+  padding: 50px;
+}
+
+#cardapio h2, #localizacao h2{
+    color: white;
+     font-family: "Lato", sans-serif;
+  font-weight: 700;
+  font-style: italic;
+}
+
+#beneficios, #cardapio, #sobre, #localizacao{
+    margin-top: 30px;
+}
+
+.card {
+    transition: transform .3s, box-shadow .3s;
+    border-radius: 10px;
+}
+
+/* Efeito de brilho */
+.card:hover {
+    transform: scale(1.03);
+    box-shadow: 0 0 15px rgba(255, 255, 255, .7);
+}
+
+#sobre{
+    padding: 30px;
+}
+
+#localizacao{
+      text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+
+}
+
+footer{
+    padding: 8px;
+    height: 100%;
+    background-color: #593225;
+    text-align: center;
+    color: white;
+}
+
+@media (max-width: 1024px) {
+    main {
+        height: 80svh;
+    }
+}
+
+@media (max-width: 768px) {
+    main {
+        height: 70svh;
+    }
+        #beneficios .card {
+        margin: 0 auto 20px;
+        max-width: 90% !important; /* ocupa mais espaço do iPad */
+        height: auto !important;   /* garante adaptação */
+    }
+
+    /* Ajusta a imagem e o texto dentro da card */
+    #beneficios .row {
+        align-items: center;
+    }
+
+    #beneficios img {
+        width: 100%;
+        height: auto;
+        object-fit: cover;
+    }
+}
+
+@media (max-width: 480px) {
+    main {
+        height: 60svh;
+    }
+     #localizacao iframe {
+        width: 41svh;
+        height: 26svh;
+    }
+}
